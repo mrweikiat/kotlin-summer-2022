@@ -145,6 +145,24 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_margin="5dp"
+            android:id="@+id/ib_undo"
+            android:src="@drawable/undo"
+            android:scaleType="fitXY"
+            />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:id="@+id/ib_redo"
+            android:src="@drawable/redo"
+            android:scaleType="fitXY"
+            />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
             android:id="@+id/ib_brush"
             android:src="@drawable/brush"
             android:scaleType="fitXY"
