@@ -19,21 +19,21 @@
         />
 
     <FrameLayout
+        android:id="@+id/flStart"
         android:layout_width="150dp"
         android:layout_height="150dp"
-
-        android:id="@+id/flStart"
-        app:layout_constraintTop_toBottomOf="@+id/ivText"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="100dp"
         android:background="@drawable/item_color_accent_border_ripple_bg"
-        >
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivText">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="START"
             android:layout_gravity="center"
+            android:text="START"
             android:textColor="@color/black"
             android:textSize="@dimen/default_button_text_size"
             android:textStyle="bold"
