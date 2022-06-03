@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\layout_activity_exercise.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\layout\\activity_exercise.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\drawable_squats.jpg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\drawable\\squats.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\drawable_push_ups.jpg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\drawable\\push_ups.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.workoutapp-merged_res-26:/layout_activity_exercise.xml.flat",
+        "source": "com.example.workoutapp-main-28:/layout/activity_exercise.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\drawable_circular_progress_bar.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\drawable\\circular_progress_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\drawable_item_color_accent_border_ripple_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\drawable\\item_color_accent_border_ripple_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\drawable_circular_progress_bar_grey.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\drawable\\circular_progress_bar_grey.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\drawable_burpees_exercise.jpg.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\drawable\\burpees_exercise.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\drawable_item_circular_color_accent_border.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\drawable\\item_circular_color_accent_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-pngs-21:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\drawable_item_circular_color_accent_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\drawable\\item_circular_color_accent_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\drawable_situps.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\drawable\\situps.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\drawable-v24_workout.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\drawable-v24\\workout.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-merged_res-26:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\7.3.3\\com.example.workoutapp-main-28:\\mipmap-xxhdpi\\ic_launcher.webp"
+    }
+]
