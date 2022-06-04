@@ -8,6 +8,7 @@ Collection of Android projects for Summer 2022
 - [Project 3: Arithmetic Calculator](#arithmetic_calculator)
 - [Project 4: Quiz App](#quiz_app)
 - [Project 5: Drawing App](#drawing_app)
+- [Project 6: WorkOut App](#workout_app)
 
 <a name="people_calculator"></a>
 ## People Calculator
@@ -92,5 +93,23 @@ Collection of Android projects for Summer 2022
 
 [To the top](#home)
 
+<a name="workout_app"></a>
+## WorkOut App
+- Features:
 
+- Concepts adopted:
+  - Text To Speech
+  - Progress Bar
+  - View binding
+  - RecyclerViews
+  - Room database
+  
+- Photos
 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/52235302/171972198-ba48d05a-a452-4a6d-99b2-5bfbcb37ac6b.png" width="250" height="500">
+  <img src="https://user-images.githubusercontent.com/52235302/171972198-ba48d05a-a452-4a6d-99b2-5bfbcb37ac6b.png" width="250" height="500">
+  <img src="https://user-images.githubusercontent.com/52235302/171972198-ba48d05a-a452-4a6d-99b2-5bfbcb37ac6b.png" width="250" height="500">
+</p>
+
+[To the top](#home)
