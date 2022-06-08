@@ -1,5 +1,6 @@
 package com.example.workoutapp
 
+import android.content.Intent
 import android.media.MediaPlayer
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +9,9 @@ import android.os.CountDownTimer
 import android.speech.tts.TextToSpeech
 import android.util.Log
 import android.view.View
+import android.widget.LinearLayout
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.workoutapp.databinding.ActivityExerciseBinding
 import java.lang.Exception
 import java.util.*
@@ -31,6 +34,11 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private var player: MediaPlayer? = null
 
+    private var exerciseAdapter: ExerciseStatusAdapter? = null
+
+    private var restTimerDuration: Long = 1
+    private var exerciseTimerDuration: Long = 1
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityExerciseBinding.inflate(layoutInflater)
@@ -52,7 +60,19 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             onBackPressed()
         }
         setUpRestView()
+        setUpExerciseStatusRecyclerView()
 
+    }
+
+    private fun setUpExerciseStatusRecyclerView(){
+        binding?.rvExerciseStatus?.layoutManager =
+            LinearLayoutManager(
+                this,
+                LinearLayoutManager.HORIZONTAL,
+                false
+            )
+        exerciseAdapter = ExerciseStatusAdapter(exerciseList!!)
+        binding?.rvExerciseStatus?.adapter = exerciseAdapter
     }
 
     private fun setUpRestView() {
@@ -126,7 +146,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private fun setRestProgressBar() {
         binding?.progressBar?.progress = restProgress
         // setting it to 2s for now
-        restTimer = object: CountDownTimer(10000, 1000){
+        restTimer = object: CountDownTimer(restTimerDuration*1000, 1000){
             override fun onTick(millisUntilFinished: Long) {
                 restProgress++
                 binding?.progressBar?.progress = 11 - restProgress
@@ -135,6 +155,11 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
             override fun onFinish() {
                 currentExercisePosition++
+
+                exerciseList!![currentExercisePosition].setIsSelected(true)
+                exerciseAdapter!!.notifyDataSetChanged()
+
+
                 setUpExerciseView()
             }
         }.start()
@@ -167,8 +192,10 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private fun setExerciseProgressBar() {
         binding?.progressBarExercise?.progress = exerciseProgress
-        //setting it to 3s for now
-        exerciseTimer = object: CountDownTimer(10000, 1000){
+        exerciseTimer = object: CountDownTimer(
+            exerciseTimerDuration*1000,
+            1000
+        ){
             override fun onTick(millisUntilFinished: Long) {
                 exerciseProgress++
                 binding?.progressBarExercise?.progress = 30 - exerciseProgress
@@ -176,14 +203,19 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             }
 
             override fun onFinish() {
+
                 if(currentExercisePosition < exerciseList?.size!! - 1){
+                    exerciseList!![currentExercisePosition].setIsSelected(false)
+                    exerciseList!![currentExercisePosition].setIsCompleted(true)
+                    exerciseAdapter!!.notifyDataSetChanged()
                     setUpRestView()
                 }else {
-                    Toast.makeText(
+                    finish()
+                    val intent = Intent(
                         this@ExerciseActivity,
-                        "Congrats!",
-                        Toast.LENGTH_SHORT
-                    ).show()
+                        FinishActivity::class.java
+                    )
+                    startActivity(intent)
                 }
             }
         }.start()
