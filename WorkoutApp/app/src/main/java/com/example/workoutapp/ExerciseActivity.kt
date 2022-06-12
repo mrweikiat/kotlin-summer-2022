@@ -210,6 +210,7 @@ class ExerciseActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                     exerciseAdapter!!.notifyDataSetChanged()
                     setUpRestView()
                 }else {
+                    speakOut("Stop")
                     finish()
                     val intent = Intent(
                         this@ExerciseActivity,
