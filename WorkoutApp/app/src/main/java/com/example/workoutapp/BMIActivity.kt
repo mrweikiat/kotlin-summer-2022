@@ -45,23 +45,7 @@ class BMIActivity : AppCompatActivity() {
         }
 
         binding?.btnCalculateUnits?.setOnClickListener {
-            if(validateMetricUnits()){
-                val heightValue: Float =
-                    binding?.etMetricUnitHeight?.text.toString().toFloat() / 100
-                val weightValue: Float =
-                    binding?.etMetricUnitWeight?.text.toString().toFloat()
-
-                val bmi = weightValue / (heightValue*heightValue)
-
-                displayBMIResult(bmi)
-
-            } else {
-                Toast.makeText(
-                    this@BMIActivity,
-                "Please enter valid values.",
-                    Toast.LENGTH_SHORT)
-                    .show()
-            }
+            calculateUnits()
         }
     }
 
@@ -146,5 +130,66 @@ class BMIActivity : AppCompatActivity() {
             isValid = false
         }
         return isValid
+    }
+
+    private fun validateUSUnits(): Boolean{
+        var isValid = true
+        when {
+            binding?.etUsMetricUnitWeight?.text.toString().isEmpty() -> {
+                isValid = false
+            }
+            binding?.etUsMetricUnitHeightFeet?.text.toString().isEmpty() -> {
+                isValid = false
+            }
+            binding?.etUsMetricUnitHeightInch?.text.toString().isEmpty() -> {
+                isValid = false
+            }
+        }
+        return isValid
+    }
+
+    private fun calculateUnits(){
+        if(currentVisibleView == METRIC_UNITS_VIEW){
+            if(validateMetricUnits()){
+                val heightValue: Float =
+                    binding?.etMetricUnitHeight?.text.toString().toFloat() / 100
+                val weightValue: Float =
+                    binding?.etMetricUnitWeight?.text.toString().toFloat()
+
+                val bmi = weightValue / (heightValue*heightValue)
+
+                displayBMIResult(bmi)
+
+            } else {
+                Toast.makeText(
+                    this@BMIActivity,
+                    "Please enter valid values.",
+                    Toast.LENGTH_SHORT)
+                    .show()
+            }
+        } else if (currentVisibleView == US_UNITS_VIEW){
+            if(validateUSUnits()){
+                val usUnitHeightValueFeet: String =
+                    binding?.etUsMetricUnitHeightFeet?.text.toString()
+                val usUnitHeightValueInch: String =
+                    binding?.etUsMetricUnitHeightInch?.text.toString()
+                val usUnitWeightValue: Float =
+                    binding?.etUsMetricUnitWeight?.text.toString().toFloat()
+
+                val heightValue =
+                    usUnitHeightValueInch.toFloat() + usUnitHeightValueFeet.toFloat() * 12
+
+                val bmi = 703 * (usUnitWeightValue/(heightValue*heightValue))
+
+                displayBMIResult(bmi)
+
+            } else {
+                Toast.makeText(
+                    this@BMIActivity,
+                    "Please enter valid values.",
+                    Toast.LENGTH_SHORT)
+                    .show()
+            }
+        }
     }
 }

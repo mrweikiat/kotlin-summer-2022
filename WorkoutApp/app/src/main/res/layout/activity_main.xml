@@ -45,21 +45,18 @@
         android:id="@+id/flBmi"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_marginTop="100dp"
-        android:background="@drawable/item_circular_color_accent_bg"
+        android:background="@drawable/item_circular_color_accent_border"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintEnd_toStartOf="@id/flHistory"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/flStart"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@id/flStart">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="BMI"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="@dimen/default_button_text_size"
             android:textStyle="bold" />
 
@@ -75,7 +72,42 @@
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/flBmi"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/flHistory"
+        android:layout_marginTop="5dp"
+        />
+
+    <FrameLayout
+        android:id="@+id/flHistory"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/item_circular_color_accent_border"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/flBmi"
+        app:layout_constraintTop_toBottomOf="@id/flStart"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_calendar"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="History"
+        android:textColor="@color/black"
+        android:textSize="@dimen/default_button_text_size"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/flHistory"
+        app:layout_constraintStart_toStartOf="@+id/flHistory"
+        app:layout_constraintEnd_toEndOf="@id/flHistory"
         android:layout_marginTop="5dp"
         />
 
