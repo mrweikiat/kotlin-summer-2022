@@ -6,6 +6,8 @@
         <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.352" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/drawable/circular_progress_bar.xml" value="0.1" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/drawable/circular_progress_bar_grey.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/drawable/drawable_radio_group_tab_background.xml" value="0.127" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/drawable/drawable_units_tab_selector.xml" value="0.127" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.352" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/drawable/item_circular_color_accent_bg.xml" value="0.1" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/drawable/item_circular_color_accent_border.xml" value="0.1" />
@@ -13,7 +15,7 @@
         <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/drawable/item_circular_color_gray_accent_bg.xml" value="0.1" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/drawable/item_circular_color_gray_bg.xml" value="0.1" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/drawable/item_color_accent_border_ripple_bg.xml" value="0.1" />
-        <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/layout/activity_bmi.xml" value="0.23324275362318841" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/layout/activity_bmi.xml" value="0.33" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/layout/activity_exercise.xml" value="0.22" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/layout/activity_finish.xml" value="0.67" />
         <entry key="..\:/Users/Admin/OneDrive/Desktop/School/projects/summer 2022/kotlin/WorkoutApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
