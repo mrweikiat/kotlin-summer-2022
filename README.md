@@ -44,6 +44,11 @@ Collection of Android projects for Summer 2022
 
 <a name="quiz_app"></a>
 ## Quiz App
+
+- Videos
+
+https://user-images.githubusercontent.com/52235302/174448348-900434e2-bcdc-492f-85e5-4367e68c0689.mov
+
 - Photos
 <p float="left">
   <img src="https://user-images.githubusercontent.com/52235302/169507153-2ff38234-306d-4491-b20d-98c55e39b351.png" width="250" height="500">
@@ -74,6 +79,10 @@ Collection of Android projects for Summer 2022
   - UI design using xml
   - Playing around with Android permissions for read/write to storage
   
+- Videos
+
+https://user-images.githubusercontent.com/52235302/174448362-19e004f5-4811-4b56-b737-89f6d065d47e.mov
+
 - Photos
 <p float="left">
   <img src="https://user-images.githubusercontent.com/52235302/170724634-bba627fe-db2e-479e-b63d-706607efb607.png" width="250" height="500">
