@@ -56,9 +56,6 @@ class FinishActivity : AppCompatActivity() {
                 "Date : ",
                 "Added..."
             )
-
-
-
         }
 
     }
