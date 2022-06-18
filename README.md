@@ -9,6 +9,7 @@ Collection of Android projects for Summer 2022
 - [Project 4: Quiz App](#quiz_app)
 - [Project 5: Drawing App](#drawing_app)
 - [Project 6: WorkOut App](#workout_app)
+- [Project 7: WorkOut App](#weather_app)
 
 <a name="people_calculator"></a>
 ## People Calculator
@@ -142,10 +143,30 @@ https://user-images.githubusercontent.com/52235302/174433323-2d17b3e5-7a43-4420-
   
 https://user-images.githubusercontent.com/52235302/174432949-8043498b-c803-4c47-90c8-d85dce897d4f.mov
   
+[To the top](#home)
+  
+
+<a name="weather_app"></a>
+## Weather App
+
+- Features:
 
 
+- Concepts adopted:
+  - JSON POST and GET
+  - Retrofit
+  - SharedPreferences
+  - APIs
 
 
+- Photos
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/52235302/174433475-68153e1e-c279-427c-83b0-d9fa0719ac07.png" width="250" height="500">
+  <img src="https://user-images.githubusercontent.com/52235302/174433475-68153e1e-c279-427c-83b0-d9fa0719ac07.png" width="250" height="500">
+  <img src="https://user-images.githubusercontent.com/52235302/174433475-68153e1e-c279-427c-83b0-d9fa0719ac07.png" width="250" height="500">
+
+</p>
 
 
 
