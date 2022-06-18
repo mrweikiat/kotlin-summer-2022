@@ -8,6 +8,7 @@ Collection of Android projects for Summer 2022
 - [Project 3: Arithmetic Calculator](#arithmetic_calculator)
 - [Project 4: Quiz App](#quiz_app)
 - [Project 5: Drawing App](#drawing_app)
+- [Project 6: WorkOut App](#workout_app)
 
 <a name="people_calculator"></a>
 ## People Calculator
@@ -92,5 +93,63 @@ Collection of Android projects for Summer 2022
 
 [To the top](#home)
 
+<a name="workout_app"></a>
+## WorkOut App
+- Features:
+  - 10 HIIT Exercises: 30s Per exercise followed by 10s rest
+  - BMI Calculator to track your fitness and health 
+  - Display history for past attempts
+
+- Concepts adopted:
+  - Text To Speech
+  - Progress Bar
+  - View binding
+  - RecyclerViews
+  - Room database
+
+- Photos
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/52235302/174432310-ba0f168d-d4e3-46cf-96b5-85d34236890e.png" width="250" height="500">
+  <img src="https://user-images.githubusercontent.com/52235302/174432153-749662d2-9767-40bf-bb77-e5625562c046.png" width="250" height="500">
+</p>
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/52235302/174432080-eafe4503-482b-4883-a686-bad9427bfbcb.png" width="250" height="500">
+  <img src="https://user-images.githubusercontent.com/52235302/174432082-51812e16-4435-4fa1-9184-23ffb46ee31c.png" width="250" height="500">
+  <img src="https://user-images.githubusercontent.com/52235302/174432086-f7d5feba-b34a-45d7-bb2a-457ff50e8f16.png" width="250" height="500">
+</p>
+ 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/52235302/174432152-394efde1-89ed-4fd8-815b-9d30d97eb705.png" width="250" height="500">
+  <img src="https://user-images.githubusercontent.com/52235302/174432165-22fcfa24-08da-44e7-82bf-af3d136efaf2.png" width="250" height="500">
+</p>
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/52235302/174432284-1dcea353-7a27-4145-bed2-a73d133b9dbb.png" width="250" height="500">
+  <img src="https://user-images.githubusercontent.com/52235302/174433161-315e8f04-38b8-4288-a000-88863c144f82.png" width="250" height="500">
+</p>
+
+
+
+- Videos
+
+  - Exercise journey (Truncated)
+  
+https://user-images.githubusercontent.com/52235302/174433323-2d17b3e5-7a43-4420-b306-2a69db9fc541.mov
+
+  - Misc
+  
+https://user-images.githubusercontent.com/52235302/174432949-8043498b-c803-4c47-90c8-d85dce897d4f.mov
+  
+
+
+
+
+
+
+
+
+[To the top](#home)
 
 
