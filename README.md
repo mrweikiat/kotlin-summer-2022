@@ -134,8 +134,12 @@ Collection of Android projects for Summer 2022
 
 - Videos
 
+  - Exercise journey (Truncated)
+  
 https://user-images.githubusercontent.com/52235302/174433323-2d17b3e5-7a43-4420-b306-2a69db9fc541.mov
 
+  - Misc
+  
 https://user-images.githubusercontent.com/52235302/174432949-8043498b-c803-4c47-90c8-d85dce897d4f.mov
   
 
