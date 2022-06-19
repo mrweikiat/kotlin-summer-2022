@@ -9,7 +9,7 @@ Collection of Android projects for Summer 2022
 - [Project 4: Quiz App](#quiz_app)
 - [Project 5: Drawing App](#drawing_app)
 - [Project 6: WorkOut App](#workout_app)
-- [Project 7: WorkOut App](#weather_app)
+- [Project 7: Weather App](#weather_app)
 
 <a name="people_calculator"></a>
 ## People Calculator
